@@ -26,21 +26,11 @@ export default function HeroSection() {
       <div className="hero__grain" />
 
       <div className="hero__content">
-        {/* Brand name — protagonista */}
-        <motion.div
-          className="hero__brand"
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2, duration: 1, ease: [0.76, 0, 0.24, 1] }}
-        >
-          <img src="/imagenes/corydentalcare/logo.png" alt="Cory Dental Care" style={{ height: '120px', width: 'auto', filter: 'drop-shadow(0 0 20px rgba(212,175,55,0.3))' }} />
-        </motion.div>
-
         <motion.div
           className="hero__brand-line"
           initial={{ scaleX: 0 }}
           animate={{ scaleX: 1 }}
-          transition={{ delay: 0.8, duration: 0.8, ease: [0.76, 0, 0.24, 1] }}
+          transition={{ delay: 0.3, duration: 0.8, ease: [0.76, 0, 0.24, 1] }}
         />
 
         <motion.span
