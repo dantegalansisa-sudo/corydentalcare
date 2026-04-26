@@ -32,7 +32,7 @@ import BlogPage from './pages/BlogPage';
 import EmergencySection from './sections/EmergencySection';
 import FinancingSection from './sections/FinancingSection';
 import CertificationsSection from './sections/CertificationsSection';
-import VideoSection from './sections/VideoSection';
+// VideoSection removed — no video available
 import { useLang } from './i18n/LanguageContext';
 
 /* ═══════ NAVBAR ═══════ */
