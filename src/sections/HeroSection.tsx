@@ -33,8 +33,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 1, ease: [0.76, 0, 0.24, 1] }}
         >
-          <span className="hero__brand-name">Cory</span>
-          <span className="hero__brand-name hero__brand-name--accent">Dental</span>
+          <img src="/imagenes/corydentalcare/logo.png" alt="Cory Dental Care" style={{ height: '120px', width: 'auto', filter: 'drop-shadow(0 0 20px rgba(212,175,55,0.3))' }} />
         </motion.div>
 
         <motion.div
