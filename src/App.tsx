@@ -12,7 +12,7 @@ import ManifestoSection from './sections/ManifestoSection';
 import ServicesSection from './sections/ServicesSection';
 import TransformationSection from './sections/TransformationSection';
 import DirectorSection from './sections/DirectorSection';
-import TeamSection from './sections/TeamSection';
+// TeamSection removed — solo practitioner
 import TechnologySection from './sections/TechnologySection';
 import StatsSection from './sections/StatsSection';
 import TestimonialsSection from './sections/TestimonialsSection';
@@ -84,7 +84,7 @@ function Navbar() {
     <>
       <nav className={`navbar${scrolled ? ' scrolled' : ''}`}>
         <a href="/" className="navbar__logo">
-          <span className="navbar__logo-text">Lalane</span>
+          <span className="navbar__logo-text">Cory</span>
           <span className="navbar__logo-accent">Dental</span>
         </a>
 
@@ -174,13 +174,11 @@ function HomePage() {
         <ManifestoSection />
         <ServicesSection />
         <DirectorSection />
-        <TeamSection />
         <TransformationSection />
         <PatientsSection />
         <TestimonialsSection />
         <GallerySection />
         <TechnologySection />
-        <VideoSection />
         <StatsSection />
         <CertificationsSection />
         <InsuranceSection />

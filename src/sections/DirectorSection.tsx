@@ -15,8 +15,8 @@ export default function DirectorSection() {
             transition={{ duration: 1, ease: [0.76, 0, 0.24, 1] as [number, number, number, number] }}
           >
             <img
-              src="/imagenes/lalane/fundadores.png"
-              alt="Dr. Ramon H Lalane M & Dra. Virginia Maria Valerio P — Fundadores"
+              src="/imagenes/corydentalcare/ceo.png"
+              alt="Dra. Carolina Ramírez — Directora"
               className="director__photo"
             />
             {/* Accent frame */}
@@ -32,11 +32,11 @@ export default function DirectorSection() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              Fundadores
+              Directora & CEO
             </motion.span>
 
             <RevealText tag="h2" className="director__name">
-              Dr. Ramon H Lalane M & Dra. Virginia Maria Valerio P
+              Dra. Carolina Ramírez
             </RevealText>
 
             <motion.div
@@ -46,11 +46,11 @@ export default function DirectorSection() {
               viewport={{ once: true }}
               transition={{ delay: 0.3, duration: 0.6 }}
             >
-              <span className="director__credential">Odontología General</span>
+              <span className="director__credential">Odontología Preventiva Integral</span>
               <span className="director__credential-dot" />
-              <span className="director__credential">Prostodoncia e Implantes</span>
+              <span className="director__credential">Egresada UNPHU (2013)</span>
               <span className="director__credential-dot" />
-              <span className="director__credential">Tradición Familiar</span>
+              <span className="director__credential">Consultorio desde 2015</span>
             </motion.div>
 
             <motion.blockquote
@@ -60,10 +60,10 @@ export default function DirectorSection() {
               viewport={{ once: true }}
               transition={{ delay: 0.4, duration: 0.7 }}
             >
-              "Fundamos Lalane Dental Team con la visión de crear un centro
-              odontológico donde la excelencia clínica y el trato humano
-              fueran inseparables. Hoy, nuestra familia profesional sigue
-              ese legado con la misma pasión y compromiso de siempre."
+              "Mi misión es hacer un trabajo excepcional para cada uno de mis
+              pacientes. Siempre busco técnicas excelentes para ofrecer la mejor
+              atención y hacerlos sentir lo más cómodos posible durante los
+              procedimientos."
             </motion.blockquote>
 
             <motion.div
@@ -77,9 +77,9 @@ export default function DirectorSection() {
               }}
             >
               {[
-                { value: '+30', label: 'Años de trayectoria' },
-                { value: '+10,000', label: 'Pacientes atendidos' },
-                { value: '8', label: 'Especialistas en el equipo' },
+                { value: '+11', label: 'Años de trayectoria' },
+                { value: '+1,000', label: 'Pacientes atendidos' },
+                { value: '100%', label: 'Dedicación y compromiso' },
               ].map((stat) => (
                 <motion.div
                   key={stat.label}
@@ -107,8 +107,8 @@ export default function DirectorSection() {
               transition={{ delay: 0.8, duration: 0.8 }}
             >
               <div className="director__signature-line" />
-              <span className="director__signature-name">Dr. Ramon H Lalane M & Dra. Virginia Maria Valerio P</span>
-              <span className="director__signature-role">Fundadores — Lalane Dental Team</span>
+              <span className="director__signature-name">Dra. Carolina Ramírez</span>
+              <span className="director__signature-role">Directora — Cory Dental Care</span>
             </motion.div>
           </div>
         </div>

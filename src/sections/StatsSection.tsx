@@ -2,10 +2,10 @@ import { motion } from 'framer-motion';
 import AnimatedCounter from '../components/AnimatedCounter';
 
 const stats = [
-  { number: 2400, suffix: '+', unit: 'CASOS', label: 'Sonrisas Transformadas' },
-  { number: 15, suffix: '+', unit: 'AÑOS', label: 'Años de Excelencia' },
+  { number: 1000, suffix: '+', unit: 'CASOS', label: 'Sonrisas Transformadas' },
+  { number: 11, suffix: '+', unit: 'AÑOS', label: 'Años de Excelencia' },
   { number: 98, suffix: '%', unit: 'SAT.', label: 'Tasa de Satisfacción' },
-  { number: 8, suffix: '', unit: 'SPECS', label: 'Especialidades Clínicas' },
+  { number: 5, suffix: '', unit: 'SPECS', label: 'Especialidades Clínicas' },
 ];
 
 const containerVariants = {

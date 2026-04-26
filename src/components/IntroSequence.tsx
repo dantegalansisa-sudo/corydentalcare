@@ -68,7 +68,7 @@ export default function IntroSequence({ onComplete }: IntroSequenceProps) {
             animate={isActive('text') ? { opacity: 1 } : { opacity: 0 }}
             transition={{ duration: 0.2 }}
           >
-            {'LALANE DENTAL'.split('').map((char, i) => (
+            {'CORY DENTAL CARE'.split('').map((char, i) => (
               <motion.span
                 key={`main-${i}`}
                 initial={{ opacity: 0, y: 10 }}
@@ -83,7 +83,7 @@ export default function IntroSequence({ onComplete }: IntroSequenceProps) {
               </motion.span>
             ))}
             <div className="intro__subtext">
-              {'— Excelencia Dental Familiar —'.split('').map((char, i) => (
+              {'— ¡Cuidamos tu Sonrisa! —'.split('').map((char, i) => (
                 <motion.span
                   key={`sub-${i}`}
                   initial={{ opacity: 0 }}

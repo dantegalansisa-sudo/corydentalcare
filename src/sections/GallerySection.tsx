@@ -2,12 +2,12 @@ import { motion } from 'framer-motion';
 import RevealText from '../components/RevealText';
 
 const galleryImages = [
-  { src: '/imagenes/lalane/instalacion-1.png', alt: 'Recepción', label: 'Recepción' },
-  { src: '/imagenes/lalane/instalacion-2.png', alt: 'Consultorio', label: 'Consultorio' },
-  { src: '/imagenes/lalane/instalacion-3.png', alt: 'Sala de espera', label: 'Sala de Espera' },
-  { src: '/imagenes/lalane/instalacion-4.png', alt: 'Equipamiento', label: 'Equipamiento' },
-  { src: '/imagenes/lalane/instalacion-5.png', alt: 'Área clínica', label: 'Área Clínica' },
-  { src: '/imagenes/lalane/instalacion-6.png', alt: 'Exterior', label: 'Torre HYLSA' },
+  { src: '/imagenes/corydentalcare/instalacion-1.png', alt: 'Recepción', label: 'Recepción' },
+  { src: '/imagenes/corydentalcare/instalacion-1.png', alt: 'Consultorio', label: 'Consultorio' },
+  { src: '/imagenes/corydentalcare/instalacion-1.png', alt: 'Sala de espera', label: 'Sala de Espera' },
+  { src: '/imagenes/corydentalcare/instalacion-1.png', alt: 'Equipamiento', label: 'Equipamiento' },
+  { src: '/imagenes/corydentalcare/instalacion-1.png', alt: 'Área clínica', label: 'Área Clínica' },
+  { src: '/imagenes/corydentalcare/instalacion-1.png', alt: 'Exterior', label: 'Cory Dental Care' },
 ];
 
 const containerVariants = {

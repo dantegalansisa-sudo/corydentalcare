@@ -33,7 +33,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 1, ease: [0.76, 0, 0.24, 1] }}
         >
-          <span className="hero__brand-name">Lalane</span>
+          <span className="hero__brand-name">Cory</span>
           <span className="hero__brand-name hero__brand-name--accent">Dental</span>
         </motion.div>
 
@@ -107,12 +107,12 @@ export default function HeroSection() {
           transition={{ delay: 2.6, duration: 1 }}
         >
           <div className="data-point">
-            <span className="data-number">+10,000</span>
+            <span className="data-number">+1,000</span>
             <span className="data-label">{t('hero.smiles')}</span>
           </div>
           <div className="data-divider" />
           <div className="data-point">
-            <span className="data-number">30+</span>
+            <span className="data-number">11+</span>
             <span className="data-label">{t('hero.years')}</span>
           </div>
           <div className="data-divider" />

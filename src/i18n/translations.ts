@@ -10,11 +10,11 @@ export const translations: Record<Lang, Record<string, string>> = {
     'nav.book': 'Reservar Cita',
 
     // Hero
-    'hero.tagline': 'Excelencia Dental Familiar',
+    'hero.tagline': '\u00a1Cuidamos tu Sonrisa!',
     'hero.title1': 'TU',
     'hero.title2': 'SONRISA',
     'hero.title3': 'PERFECTA',
-    'hero.subtitle': 'Donde la ciencia dental se convierte en arte.',
+    'hero.subtitle': 'Tu sonrisa en las mejores manos.',
     'hero.cta': 'Reservar Cita →',
     'hero.explore': 'Explorar Servicios',
     'hero.smiles': 'Sonrisas Transformadas',
@@ -45,11 +45,11 @@ export const translations: Record<Lang, Record<string, string>> = {
     // Manifesto
     'manifesto.label': '— Nuestra filosofía —',
     'manifesto.quote': 'Tu sonrisa no es solo estética. Es tu primera impresión, tu confianza, tu poder.',
-    'manifesto.body': 'Combinamos tecnología de vanguardia con el arte de la odontología para crear sonrisas que transforman vidas. Cada tratamiento es diseñado a la medida, porque entendemos que tu sonrisa es única.',
+    'manifesto.body': 'En Cory Dental Care, la Dra. Carolina Ramírez y su equipo combinan tecnología de vanguardia con atención personalizada para crear sonrisas que transforman vidas. Cada tratamiento es diseñado a la medida, porque entendemos que tu sonrisa es única.',
     'manifesto.p1.title': 'Precisión',
     'manifesto.p1.desc': 'Tecnología 3D y planificación digital para cada caso',
     'manifesto.p2.title': 'Confianza',
-    'manifesto.p2.desc': 'Más de 2,400 sonrisas transformadas con éxito',
+    'manifesto.p2.desc': 'Más de 1,000 sonrisas transformadas con éxito',
     'manifesto.p3.title': 'Elegancia',
     'manifesto.p3.desc': 'Resultados naturales, armoniosos y duraderos',
     'manifesto.p4.title': 'Calidez',
@@ -89,8 +89,8 @@ export const translations: Record<Lang, Record<string, string>> = {
     'booking.sent': '¡Enviado! Revisa WhatsApp',
 
     // Footer
-    'footer.tagline': 'Excelencia Dental Familiar',
-    'footer.rights': '© 2026 Lalane Dental Team. Todos los derechos reservados.',
+    'footer.tagline': 'Dra. Carolina Ramírez — Cuidamos tu Sonrisa',
+    'footer.rights': '© 2026 Cory Dental Care. Todos los derechos reservados.',
     'footer.credit': 'Diseñado por',
     'footer.privacy': 'Política de Privacidad',
     'footer.legal': 'Aviso Legal',
@@ -112,11 +112,11 @@ export const translations: Record<Lang, Record<string, string>> = {
     'nav.book': 'Book Appointment',
 
     // Hero
-    'hero.tagline': 'Family Dental Excellence',
+    'hero.tagline': 'We Care for Your Smile!',
     'hero.title1': 'YOUR',
     'hero.title2': 'SMILE',
     'hero.title3': 'PERFECTED',
-    'hero.subtitle': 'Where dental science becomes art.',
+    'hero.subtitle': 'Your smile in the best hands.',
     'hero.cta': 'Book Appointment →',
     'hero.explore': 'Explore Services',
     'hero.smiles': 'Smiles Transformed',
@@ -147,11 +147,11 @@ export const translations: Record<Lang, Record<string, string>> = {
     // Manifesto
     'manifesto.label': '— Our Philosophy —',
     'manifesto.quote': 'Your smile is not just aesthetics. It\'s your first impression, your confidence, your power.',
-    'manifesto.body': 'We combine cutting-edge technology with the art of dentistry to create smiles that transform lives. Every treatment is custom-designed, because we understand your smile is unique.',
+    'manifesto.body': 'At Cory Dental Care, Dra. Carolina Ramírez and her team combine cutting-edge technology with personalized care to create smiles that transform lives. Every treatment is custom-designed, because we understand your smile is unique.',
     'manifesto.p1.title': 'Precision',
     'manifesto.p1.desc': '3D technology and digital planning for every case',
     'manifesto.p2.title': 'Trust',
-    'manifesto.p2.desc': 'Over 2,400 smiles successfully transformed',
+    'manifesto.p2.desc': 'Over 1,000 smiles successfully transformed',
     'manifesto.p3.title': 'Elegance',
     'manifesto.p3.desc': 'Natural, harmonious and lasting results',
     'manifesto.p4.title': 'Warmth',
@@ -191,8 +191,8 @@ export const translations: Record<Lang, Record<string, string>> = {
     'booking.sent': 'Sent! Check WhatsApp',
 
     // Footer
-    'footer.tagline': 'Family Dental Excellence',
-    'footer.rights': '© 2026 Lalane Dental Team. All rights reserved.',
+    'footer.tagline': 'Dra. Carolina Ramírez — We Care for Your Smile',
+    'footer.rights': '© 2026 Cory Dental Care. All rights reserved.',
     'footer.credit': 'Designed by',
     'footer.privacy': 'Privacy Policy',
     'footer.legal': 'Legal Notice',
